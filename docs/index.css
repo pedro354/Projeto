@@ -1,3 +1,39 @@
-h1 {
+#caixa-de-texto {
+    width: 16%;
+}
+#operador {
+    background: rgb(255 0 0);
+    color: rgb(255 255 255);
+    border: solid rgb(0 0 0) 2px;
+    width: 100%;
+    padding: 20px;
+}
+#operador:hover {
+    background: white;
     color: red;
+}
+#numerador:hover {
+    background: white;
+    color: red;
+}
+
+#verificar:hover {
+    background: white;
+    color: red;
+}
+
+#numerador {
+    background: rgb(255 0 0);
+    color: rgb(255 255 255);
+    border: solid rgb(0 0 0) 2px;
+    width: 100%;
+    padding: 20px;
+}
+#verificar {
+    background: rgb(255 0 0);
+    color: rgb(255 255 255);
+    border: solid rgb(0 0 0) 2px;
+    width: 100%;
+    padding: 20px;
+
 }
