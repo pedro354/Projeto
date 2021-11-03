@@ -10,31 +10,31 @@
     <h1>Calculadora em JS</h1>
 </header>
 <div class="container">
-<table class="calculadora">
-<input id="display" type="text">
+    <input id="display" name="display" type="text">
+<table id="calculadora">
 <tr>
-    <td><input type="button" name="num7" id="numerador" value="7"></td> 
-    <td><input type="button" zname="num8" id="numerador" value="8"></td>
-    <td><input type="button" name="num9" id="numerador" value="9"></td>
-    <td><input type="button" name="dividir" id="operador" value="/"></td>
+    <td><input type="button" name="num7" class="numerador" value="7" onClick="calcNum(9)"></td> 
+    <td><input type="button" numer="num8" class="numerador" value="8" onClick="calcNum(8)"></td>
+    <td><input type="button" name="num9" class="numerador" value="9" onClick="calcNum(9)"></td>
+    <td><input type="button" name="dividir" class="operador" value="/" onClick="calcOper('dividir)"></td>
+</tr>
+<tr>        
+    <td><input type="button" name="num4" class="numerador" value="4"></td> 
+    <td><input type="button" name="num5" class="numerador" value="5"></td>
+    <td><input type="button" name="num6" class="numerador" value="6"></td>
+    <td><input type="button" name="multiplicar" class="operador" value="*"></td>
 </tr>
 <tr>
-    <td><input type="button" name="num4" id="numerador" value="4"></td> 
-    <td><input type="button" name="num5" id="numerador" value="5"></td>
-    <td><input type="button" name="num6" id="numerador" value="6"></td>
-    <td><input type="button" name="multiplicar" id="operador" value="*"></td>
-</tr>
+    <td><input type="button" name="num1" class="numerador" value="1"></td> 
+    <td><input type="button" name="num2" class="numerador" value="2"></td>
+    <td><input type="button" name="num3" class="numerador" value="3"></td>
+    <td><input type="button" name="subtrair" class="operador" value="-"></td>
 <tr>
-    <td><input type="button" name="num1" id="numerador" value="1"></td> 
-    <td><input type="button" name="num2" id="numerador" value="2"></td>
-    <td><input type="button" name="num3" id="numerador" value="3"></td>
-    <td><input type="button" name="subtrair" id="operador" value="-"></td>
-<tr>
-    <td><input type="button" name="num0" id="numerador" value="0" ></td>
-    <td><input type="button" name="igual" id="verificar" value="="></td>
-    <td><input type="button" name="apagar" id="operador" value="C" ></td>
-    <td><input type="button" name="somar" id="operador" value="+"></td>
+    <td><input type="button" name="num0" class="numerador" value="0" ></td>
+    <td><input type="button" name="igual" class="verificar" value="="></td>
+    <td><input type="button" name="apagar" class="operador" value="C" ></td>
+    <td><input type="button" name="somar" class="operador" value="+"></td>
 </tr></div>
 </body>
-<script type="text/javascript" src="index. js"></script>
+<script type="text/javascript" src="index.js"></script>
 </html>
