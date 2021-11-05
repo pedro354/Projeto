@@ -1,8 +1,8 @@
 .container {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: lightblue;
+    background-color: rgb(192, 192, 192);
     border-radius: 10px;
     width: auto;
     padding: 10px;
@@ -23,11 +23,13 @@
 .calculator-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 5px;
 }
 .calculator, button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 background-color:red;
 color: white;
+border:none;
 padding: 20px;
 border-radius: 20px;
 outline: none;
@@ -38,39 +40,4 @@ button:hover {
     color: black;
 }
 
-#operador {
-    background: rgb(255 0 0);
-    color: rgb(255 255 255);
-    border: solid rgb(0 0 0) 2px;
-    width: 100%;
-    padding: 20px;
-}
-#operador:hover {
-    background: white;
-    color: red;
-}
-#numerador:hover {
-    background: white;
-    color: red;
-}
 
-#verificar:hover {
-    background: white;
-    color: red;
-}
-
-#numerador {
-    background: rgb(255 0 0);
-    color: rgb(255 255 255);
-    border: solid rgb(0 0 0) 2px;
-    width: 100%;
-    padding: 20px;
-}
-#verificar {
-    background: rgb(255 0 0);
-    color: rgb(255 255 255);
-    border: solid rgb(0 0 0) 2px;
-    width: 100%;
-    padding: 20px;
-
-}
