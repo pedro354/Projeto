@@ -1,6 +1,43 @@
-#caixa-de-texto {
-    width: 16%;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: lightblue;
+    border-radius: 10px;
+    width: auto;
+    padding: 10px;
 }
+.display {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    height: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border: 1px solid black;
+    color:rgb(0, 0, 0);
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.calculator, button{
+background-color:red;
+color: white;
+padding: 20px;
+border-radius: 20px;
+outline: none;
+cursor: pointer;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+
 #operador {
     background: rgb(255 0 0);
     color: rgb(255 255 255);

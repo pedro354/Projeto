@@ -10,31 +10,29 @@
     <h1>Calculadora em JS</h1>
 </header>
 <div class="container">
-    <input id="display" name="display" type="text">
-<table id="calculadora">
-<tr>
-    <td><input type="button" name="num7" class="numerador" value="7" onClick="calcNum(9)"></td> 
-    <td><input type="button" numer="num8" class="numerador" value="8" onClick="calcNum(8)"></td>
-    <td><input type="button" name="num9" class="numerador" value="9" onClick="calcNum(9)"></td>
-    <td><input type="button" name="dividir" class="operador" value="/" onClick="calcOper('dividir)"></td>
-</tr>
-<tr>        
-    <td><input type="button" name="num4" class="numerador" value="4"></td> 
-    <td><input type="button" name="num5" class="numerador" value="5"></td>
-    <td><input type="button" name="num6" class="numerador" value="6"></td>
-    <td><input type="button" name="multiplicar" class="operador" value="*"></td>
-</tr>
-<tr>
-    <td><input type="button" name="num1" class="numerador" value="1"></td> 
-    <td><input type="button" name="num2" class="numerador" value="2"></td>
-    <td><input type="button" name="num3" class="numerador" value="3"></td>
-    <td><input type="button" name="subtrair" class="operador" value="-"></td>
-<tr>
-    <td><input type="button" name="num0" class="numerador" value="0" ></td>
-    <td><input type="button" name="igual" class="verificar" value="="></td>
-    <td><input type="button" name="apagar" class="operador" value="C" ></td>
-    <td><input type="button" name="somar" class="operador" value="+"></td>
-</tr></div>
+    <div class="display" id="display"></div>
+    <div class="calculator-buttons">
+        <button id="limparDisplay">C</button>
+        <button id="limparEquacao">CE</button>
+        <button id="apagar"><<</button>
+        <button id="operDividir">/</button>
+        <button id="num7">7</button>
+        <button id="num8">8</button>
+        <button id="num9">9</button>
+        <button id="operMultiplicar">*</button>
+        <button id="num4">4</button>
+        <button id="num5">5</button>
+        <button id="num6">6</button>
+        <button id="operSubtrair">-</button>
+        <button id="num1">1</button>
+        <button id="num2">2</button>
+        <button id="num3">3</button>
+        <button id="operSomar">+</button>
+        <button id="inverter">+-</button>
+        <button id="num0">0</button>
+        <button id="decimal">.</button>
+        <button id="igual">=</button>
+    </div></div>
 </body>
 <script type="text/javascript" src="index.js"></script>
 </html>
