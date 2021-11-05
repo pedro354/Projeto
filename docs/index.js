@@ -1,5 +1,3 @@
-
-
 const display = document.getElementById('display');
 const numeros = document.querySelectorAll('[id*=num]');
 const operadores = document.querySelectorAll('[id*=oper]');
@@ -78,5 +76,5 @@ const inserirDecimal = () => {
          atualizarDisplay('0,');
       }
    }
-   }
+}
 document.getElementById('decimal').addEventListener('click', inserirDecimal);
