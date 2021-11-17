@@ -1,42 +1,59 @@
+.calculatorbuttons{
+    margin-top: 120px;
+    background-color: rgb(224, 224, 224);
+}
 .container {
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: rgb(192, 192, 192);
-    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
     width: auto;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
 }
 .display {
     display: flex;
     justify-content: flex-end;
     width: auto;
-    height: 10px;
-    margin: 20px;
-    padding: 20px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
-    border: 1px solid black;
+    border: 0px solid black;
     color:rgb(0, 0, 0);
 }
-
-.calculator-buttons {
+.funcao {
+     background-color: rgb(228, 228, 228);
+     color: black;
+}
+.operador { 
+    color: white;
+}
+.igual{
+    background-color: rgb(110, 0, 22)
+}
+#calculadora {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 2px;
+}
+.numero {
+    color: black;
+    background-color: rgb(255, 255, 255);
 }
 .calculator, button{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color:red;
-color: white;
-border:none;
+background-color:rgba(253, 0, 0, 0.884);
+color: rgb(255, 255, 255);
+border: 0px;
+font-size: 20px;
 padding: 20px;
-border-radius: 20px;
 outline: none;
 cursor: pointer;
 }
 button:hover {
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
