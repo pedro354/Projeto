@@ -1,59 +1,57 @@
-.calculatorbuttons{
-    margin-top: 120px;
-    background-color: rgb(224, 224, 224);
-}
-.container {
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    width: auto;
-    margin: 0px;
-    padding: 0px;
-}
-.display {
-    display: flex;
-    justify-content: flex-end;
-    width: auto;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(255, 255, 255);
+body{
+    align-items: center;
+    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
     overflow: hidden;
-    border: 0px solid black;
-    color:rgb(0, 0, 0);
+  }
+.heart_beating{
+    animation: hearting 2s infinite;
+
 }
-.funcao {
-     background-color: rgb(228, 228, 228);
-     color: black;
-}
-.operador { 
-    color: white;
-}
-.igual{
-    background-color: rgb(110, 0, 22)
-}
-#calculadora {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 2px;
-}
-.numero {
-    color: black;
-    background-color: rgb(255, 255, 255);
-}
-.calculator, button{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color:rgba(253, 0, 0, 0.884);
-color: rgb(255, 255, 255);
-border: 0px;
-font-size: 20px;
-padding: 20px;
-outline: none;
-cursor: pointer;
-}
-button:hover {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+@keyframes hearting {
+    60%  {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 white;
+      
+    }
+ }
+.heart{
+    margin: 200px;
+    background-color: red;
+    height: 200px;
+    transform: rotate(-45deg);
+    width: 200px;
+    position: relative;
+    
 }
 
+.heart:before,
+.heart:after{
+    position: absolute;
+    content:"";
+    width:200px;
+    height:200px;
+    background:red;
+    border-radius: 50%;
+}
+
+.heart:before{
+    top:-100px;
+}
+
+.heart:after{
+    left:100px;
+}
+.paragraph{
+    color: white;
+    position:absolute;
+    top:460px;
+    left:220px;
+    font-size: xx-large;
+}
+.texto{
+    color: white;
+    position:absolute;
+    top:490px;
+    left:250px;
+    font-size: xx-large;
+}
