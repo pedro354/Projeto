@@ -1,0 +1,32 @@
+/* paletas*/
+.paletas_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.paleta {
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    background: blue;
+}
+
+#paleta1 {
+    background-color: seagreen;
+}
+
+#paleta2 {
+    background-color: slateblue;
+}
+
+#paleta3 {
+    background-color: tomato;
+}
+
+.titulo {
+    font-family: impact, Haettenschweiler,'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 10px;
+}

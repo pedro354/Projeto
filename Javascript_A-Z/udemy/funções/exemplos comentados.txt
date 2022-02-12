@@ -1,0 +1,16 @@
+Declaração de Função
+function nomeFuncao(param1, param2, param3){
+    //bloco de codigos
+    return //retornar algo
+}
+nomeFuncao(valor1, valor2, valor3);
+
+Exemplo de calcula de Area
+funcion calculaArea(lado)`
+let area = lado * lado;
+return area;
+}
+calculaArea(6);
+
+calcular media em javascript sempre será (/ "divisor").
+calcular numero Par será % 2 ===.

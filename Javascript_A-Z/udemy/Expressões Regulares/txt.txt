@@ -1,0 +1,37 @@
+O que é uma Expressão Regular?
+
+Uma expressão é uma linguagem de busca de padrões.
+
+Formas de se criar o Regex:
+
+Literal
+const regexLiteral = /\([0-9][2]\) 9 [0-9][4]-[0-9][4]/;
+
+Obs:
+Compiladas quando o script é carregado.
+Melhor perfomace quando a expressão regular utilizada é uma constante.
+------------------
+Objeto:
+let regexObjeto = new RegExp (\([0-9][2]\) 9 [0-9][4]-[0-9][4]);
+
+Obs:
+Compilação da expressão regular é realizada em tempo de execução.
+Você deve usar construtor quando souber que o padrão da expressão regular irá mudar.
+------------------
+Notação:
+Test: Executa uma busca por uma correnspondencia entre uma expressão regular e uma string especificada.
+regex.test(stringTest);
+
+------------------
+Match: 
+Recupera o resultado da correnspondencia de uma string com uma expressão regular.
+string.match(regex);
+
+------------------
+Exec:
+Recupera o resultado da correnspondencia de uma string com uma expressão regular.
+regex.exec(string);
+
+Grupos:
+Grupos servem para agrupar partes de padrao e ajudar na manipulação dessa parte.
+
