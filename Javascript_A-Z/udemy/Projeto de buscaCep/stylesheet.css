@@ -16,23 +16,23 @@ img {
 }
 
 .titulo {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:calibri, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 70px;
     margin-top: 40px;
     padding-top: 20px;
     color: #232f3e;
+    
 }
 
 .quadro {
     background: white;
     width: 1000px;
-    height: 570px;
+    height: 450px;
     margin: 35px;
     margin-top: 2%;
     border-radius: 10px;
 }
-
 .container {
     background: white;
     margin: 25px;
@@ -78,19 +78,22 @@ img {
 }
 
 .buscarBt {
-    width: 180px;
+    width: 200px;
     height: 50px;
     border: none;
     outline: none;
     border-radius: 10px;
     font-size: 17px;
     font-weight: bolder;
-    color: #232f3e;
+    color: white;
     margin: 3%;    
 }
 
 #botao_buscar {
-    background-color: #7885bd;
+    background-color: #5454ca;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 
 }
 
@@ -105,6 +108,9 @@ img {
 
 .msgErro {
     color: red;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .submeter{
