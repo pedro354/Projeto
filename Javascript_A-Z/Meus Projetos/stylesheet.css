@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(42deg, rgba(34,193,195,1) 0%, rgba(45,147,253,1) 100%); 
+}
+
+.container{
+    background: #f0f8ff2e;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
+
+.teste{
+    display: flex;
+    margin: auto;
+}
+
+h1 {
+    margin: 100px;
+}
