@@ -1,4 +1,5 @@
-let nome = 'Mundo';
+let nome = 'Emily';
+let sobrenome = 'Silva'
+let filha = 'Saiu correndo pela casa'
 
-
-console.log('Olá', nome);
+console.log(`${nome} ${sobrenome}` + ' ' + filha);

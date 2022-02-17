@@ -1,0 +1,8 @@
+Usuario 1 
+Usuario 2
+
+Usuario 1 conversa com Usuario 2 envia mensagem como "Olá Usuario 2"
+Usuario 2 ao responder Usuario 1 surge mensagem como "Olá Usuario 1"
+
+Existe opções de escolha de palavras ao clicar em "Olá Usuario 1" envia a mensagem ao Usuario 1.
+
