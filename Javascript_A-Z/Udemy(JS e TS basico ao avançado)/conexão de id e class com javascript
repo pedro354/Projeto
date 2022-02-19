@@ -1,3 +1,0 @@
-<span id="numero-titulo">0</span></h1>            --> (HTML): Enviando ao javascript, o id para o document
-document.getElementById("numero-titulo");         --> (getElementById): recebe o id do HTML
-aplico const + (Qualquer Variavel == a document)  --> Seleciona o documento por id(id em parenteses)
