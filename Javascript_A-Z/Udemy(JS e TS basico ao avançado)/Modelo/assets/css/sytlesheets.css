@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --primary-color: rgb(153, 224, 120);
+    --primary-color-darker: #256407
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    font-family: bold;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+    
+}
+
+form input:focus {
+    outline: 2px solid var(--primary-color); 
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+form button:hover{
+    background: var(--primary-color-darker);
+}
+
+form button:active{
+    background: rgb(3, 21, 5)
+}
+.paragrafo-resultado{
+    background-color:rgb(108, 238, 177);
+    padding: 10px 20px;
+}
+.paragrafo-invalido{
+    background-color:rgb(238, 108, 108);
+    padding: 10px 20px;
+
+}
+p{
+    margin:2px;
+}
+.row {
+    display: flex;
+    justify-content: left;
+}
+th, td {
+    padding-right: 150px;
+    text-align: left;
+}
