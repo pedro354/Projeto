@@ -67,6 +67,8 @@ form button:active{
     background-color:rgb(108, 238, 177);
     padding: 10px 20px;
 }
+
+
 .paragrafo-invalido{
     background-color:rgb(238, 108, 108);
     padding: 10px 20px;
