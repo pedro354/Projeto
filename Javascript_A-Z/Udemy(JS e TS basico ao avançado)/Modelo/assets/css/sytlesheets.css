@@ -103,6 +103,6 @@ p{
 th, td {
     padding-right: 100px;
     text-align: left;
-    width: 0;
+    width: auto;
     height: auto;
 }
