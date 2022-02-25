@@ -110,7 +110,7 @@
 // }
 // h1.innerHTML = criaDate(data);
 
-
+    
 
 //MELHOR USADO PARA RECEBER UMA DATA//
 

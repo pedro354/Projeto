@@ -9,3 +9,8 @@
     console.log(i, par)
 }
  */
+
+const frutas = ["Abacaxi", "Laranja", "Maça", "Limão", "Morango"];
+for (let i = 0; i < frutas.length; i++){
+    console.log(`indice ${i}`, frutas[i])
+}
